@@ -53,5 +53,5 @@ class MyClient(discord.Client):
 
 # RUN
 client = MyClient()
-token = os.environ.get(Token_Bot)
+token = os.environ.get('Token_Bot')
 client.run(str(token))
